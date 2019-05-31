@@ -1,19 +1,16 @@
-package Problema_1
 import java.util.Scanner;
-{
-public class Taller 1
 
-        String name;
-        Scanner Keyboard = new Scanner(System.in);
+public class Main {
 
-public void show(){
-        System.out.println("Bienvenido a mi proyecto #1");
-        System.out.println("Ingrese su nombre: ");
-        name=Keyboard.next();
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner (System.in);
+        System.out.print("Coloca tu nombre");
+        String name = input.next();
+        System.out.println();
+        System.out.println("Hola \n" + name );
 
-        System.out.Printin("Su nombre es: "+nombre);
+    }
 
-        }
 
-        }
-        }
+}
