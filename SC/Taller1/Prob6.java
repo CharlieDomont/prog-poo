@@ -21,6 +21,6 @@ public class Prob6 {
 
         System.out.println();
         System.out.println("The name of the Runner is  \n"+ name );
-        System.out.println("He is Averaging  \n"+ Avg + " minutes per kilometer ");
+        System.out.println(name+ " is averaging  \n"+ Avg + " minutes per kilometer ");
     }
 }
